@@ -1,0 +1,345 @@
+/* CSS */
+body{
+    margin: 0;
+    padding: 0;
+    overflow-inline:scroll ;
+    width: 100%;
+    height: 500vh;
+    background-color: #010409;
+}
+.nav-container{
+    background-color: #010409;
+}
+.logo-icon{
+    width: 60px;
+    margin-top: 10px;
+    margin-left: 25px;
+    height: 60px;
+    margin-bottom: 20px;
+}
+.logo-icon a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 35px;
+    height: 70px;
+    color:white;
+}
+.logo-icon a img{
+    height: 65px;
+    justify-content: center;
+    align-content: center;
+    width: 65px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: white;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navul{
+    list-style: none;
+    margin-right: 50px;
+}
+.navul li{
+    display: inline-block;
+    margin-right: 50px;
+}
+.navul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding: 15px;
+    border-radius: 20px;
+}
+.navul li a:hover{
+    background-color: #38373c;
+    transition: .3s;
+}
+.main-web{
+    margin: 0;
+    height: 88vh;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.25),rgba(0,0,0,0.25)), url(/assets/background\ 1.jpg);
+    background-size: cover;
+    background-position:bottom;
+}
+
+/* scroll bar */
+::-webkit-scrollbar{
+    width: 15px;
+}
+::-webkit-scrollbar-track{
+    background: #0f0f0f;
+}
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(#2d00a5, #ff8fd9);
+    border-radius: 15px;
+}
+/* main content */
+main{
+    font-family: arial;
+}
+.main-head{
+    padding-top: 30px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.main-head h1{
+    font-size: 70px;
+    font-weight: bold;
+}
+.main-head p{
+    font-size: 30px;
+    font-weight: bold;
+}
+.main-text{
+    color: #b36497a6;
+    text-shadow: 1px 2px 1px #ff8fd9;
+}
+.name-change{
+    padding-top: 70px;
+}
+.name-change p{
+    font-size: 18px;
+}
+.name-change button{
+    border: 1px solid #1e0070;
+    background: transparent;
+    padding: 12px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+    font-size: 15px;
+}
+.name-change button:hover{
+    border: transparent;
+    background: #960064;
+    transition: .3s;
+}
+.name-change td{
+    padding-right: 15px;
+}
+
+/* our profile */
+.our-profile{
+    background-color:  #38373c9a;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    margin-left: 200px;
+    padding-bottom: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: arial;
+    text-align: center;
+    color: #fff;
+    align-items: center;
+    border-top: 1px solid #38373c48;
+    border-bottom: 1px solid #38373c48;
+    border-left: 1px solid #38373c48;
+    height: 70vh;
+}
+.our-profile h1{
+    font-weight: bold;
+    font-size: 50px;
+}
+.our-profile img{
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    border: 1px solid #0f0f0f;
+}
+.profile-background{
+    background: url(/assets/background1.jpg);
+    background-color: #010409;
+    height: 100vh;
+    width: 100%;
+    margin-bottom: 10px;
+    align-content: center;
+    margin-top: 40vh;
+}
+.our-profile h2{
+    color: #3b03d6;
+    font-family: cursive;
+    font-size: 30px;
+}
+.background2{
+    background-color: white;
+    width: 100%;
+    height: 35vh;
+    margin-bottom: 30vh;
+    background: url(/assets/background2.jpg);
+    background-position: top;
+    background-size: cover;
+    border-top: 3px solid #38373cb9;
+    border-bottom: 3px solid #38373cb9;
+}
+.background1{
+    display: flex;
+    align-content: center;
+    padding-top: 30vh;
+    width: 100%;
+    height: 60vh;
+    background: url(/assets/background1.jpg);
+}
+.portfolio{
+    background-color: white;
+    font-size: 20px;
+    width: 160vh;
+    border-top: 1px solid #38373c48;
+    border-bottom: 1px solid #38373c48;
+    border-right: 1px solid #38373c48;
+    background-color: #38373c9a;
+    color: #fff;
+}
+.portfolio-background{
+    background: url(/assets/background1.jpg);
+}
+.fortfolio-name{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    border-bottom:3px solid black;
+    width: 70vh;
+}
+.fortfolio-name img{
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    border: 1px solid #0f0f0f;
+}
+.fortfolio-content{
+    width: 50vh;
+    text-align: justify;
+    margin-left: 15vh;
+}
+.portfolio-position{
+    display: flex;
+    justify-content: center;
+}
+.portfolio h1{
+    display: flex;
+    justify-content: center;
+}
+.fortfolio-nav{
+    padding-top: 110px;
+}
+.message{
+    background-color: #fff;
+    margin-top: 30vh;
+    height: 80vh;
+}
+.a{
+    width: -webkit-fill-available;
+    height: 25px;
+}
+.b{
+    vertical-align: top;
+}
+.c{
+    text-align: -webkit-center;
+    padding-top: 100px;
+}
+.d{
+    resize: none;
+}
+.message{
+    color: white;
+    background-color: #38373c9a;
+    padding-bottom: 70px;
+}
+.message-form{
+    padding-top: 5vh;
+    padding-right: 5vh;
+    margin-left: 15vh;
+    height: 50vh;
+    border:1px solid #38373c48;
+    background-color: #38373c;;
+    border-radius: 15px;
+}
+form{
+    margin-left: 5vh;
+}
+.message h1{
+    display: flex;
+    justify-content: center;
+}
+.message-position{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15vh;
+}
+.message-output{
+    background-color: #38373c;
+    border: 1px solid #38373c48;
+    margin-right: 20vh;
+    width: 80vh;
+    margin-left: 20vh;
+    border-radius: 15px;
+}
+.message-background{
+    padding-top: 20vh;
+    height: 120vh;
+    background: url(/assets/background1.jpg);
+}
+.z{
+    padding-left: 5vh;
+    text-align: left;
+}
+.our-profile h1{
+    color: #b896b2;
+}
+.lokasi{
+    color: aqua;
+}
+.our-profile{
+    font-size: 20px;
+}
+.nav-position{
+    margin-left: 10px;
+}
+.wa img{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+.wa{
+    display: flex;
+    align-items: center;
+}
+.fortfolio-name h1{
+    display: flex;
+    justify-content: left;
+}
+.fortfolio-name img{
+    margin-right: 20px;
+}
+form input{
+    border-radius: 10px;
+    border: 1px solid black;
+}
+form textarea{
+    border-radius: 10px;
+    border: 1px solid black;
+}
+form button{
+    border-radius: 10px;
+    border: 1px solid black;
+}
+.f{
+    padding-right: 30px;
+}
+.message h1{
+    padding-top: 40px;
+    font-size: 40px;
+}
